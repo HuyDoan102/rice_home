@@ -20,6 +20,8 @@ class Food extends Model implements Transformable
      *
      * @var array
      */
-    protected $fillable = [];
+    protected $fillable = [
+        'name', 'image', 'description', 'price'
+    ];
 
 }
