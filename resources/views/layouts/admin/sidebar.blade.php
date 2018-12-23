@@ -38,7 +38,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#" aria-expanded="false" data-target="#submenu-10" aria-controls="submenu-10"><i class="fas fa-utensils"></i>Food Management</a>
+                        <a class="nav-link" href="{{ route('foods.index') }}" aria-expanded="false" data-target="#submenu-10" aria-controls="submenu-10"><i class="fas fa-utensils"></i>Food Management</a>
                     </li>
 
                     <li class="nav-item">
