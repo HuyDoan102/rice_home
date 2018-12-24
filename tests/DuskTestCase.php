@@ -27,7 +27,7 @@ abstract class DuskTestCase extends BaseTestCase
      *
      * @return \Facebook\WebDriver\Remote\RemoteWebDriver
      */
-    protected function driver()
+    /*protected function driver()
     {
         $options = (new ChromeOptions)->addArguments([
             '--disable-gpu',
@@ -39,5 +39,5 @@ abstract class DuskTestCase extends BaseTestCase
                 ChromeOptions::CAPABILITY, $options
             )
         );
-    }
+    }*/
 }
