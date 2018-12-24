@@ -25,7 +25,8 @@ class RoleSeeder extends Seeder
     public function getData()
     {
         $data =[
-            ['name' => 'Admin', 'code' => 'roles.admin'],
+            ['name' => 'Administrator', 'code' => 'roles.admin'],
+            ['name' => 'Manager', 'code' => 'roles.manager'],
             ['name' => 'Ordered', 'code' => 'roles.ordered'],
         ];
         return $data;
